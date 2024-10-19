@@ -1,0 +1,15 @@
+Front End:
+HTML- https://developer.mozilla.org/en-US/docs/Web/HTML
+CSS- https://developer.mozilla.org/en-US/docs/Web/CSS
+Javascript- https://devdocs.io/javascript/
+Vue 3- https://vuejs.org/guide/introduction.html
+Nuxt 3- https://nuxt.com/docs/getting-started/introduction
+Quasar- https://quasar.dev/docs/
+
+Back End:
+Javascript- https://devdocs.io/javascript/
+Typescript- https://www.typescriptlang.org/docs/
+Node- https://nodejs.org/docs/latest/api/
+MongoDB- https://www.mongodb.com/docs/
+Mongoose- https://mongoosejs.com/docs/
+Express- https://expressjs.com/
