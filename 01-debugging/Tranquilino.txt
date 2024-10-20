@@ -1,4 +1,5 @@
 Which debugging technique do you like to use? Why?
 -I like to use the Forward Analysis since it is easier for me to understand and implement.
-This debugging strategy involes trakcing a program forward to identify the location of bugs. It uses different breakpoints or print statements at different points in the program.
-I often use this in loops to keep track the value of the variables. If I'm still not able to fix the problem, I usually search on YouTube and stackoverlfow to find solutions.
+This debugging strategy involes trakcing a program forward to identify the location of bugs. It uses different breakpoints or print statements 
+at different points in the program. I often use this in loops to keep track the value of the variables. 
+If I'm still not able to fix the problem, I usually search on YouTube and stackoverlfow to find solutions.
