@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Montserrat";
+  background-color: rgb(19, 55, 122);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.operation-button {
+  align-self: flex-end;
+}
+
+.container {
+  margin: 20px;
+  display: grid;
+  grid-gap: 20px;
+}
+
+.box {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+  color: rgb(19, 55, 122);
+}
+
+.box p {
+  font-size: 25px;
+}
+
+.box h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.operation-button {
+  background-color: rgb(68, 110, 0);
+  color: white;
+  height: 50px;
+  border-radius: 100px;
+  width: 150px;
+  float: right;
+  margin: 10px 20px;
+  border: transparent;
+}
+
+@media (min-width: 600px) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .container {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: 2fr 2fr;
+  }
+  .box {
+    background-color: rgb(19, 55, 122);
+    color: white;
+  }
+
+  .operation-button {
+    margin: 10px 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-color: rgb(19, 55, 122);
+  }
+  .container {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .box {
+    background: white;
+    color: rgb(19, 55, 122);
+  }
+}
